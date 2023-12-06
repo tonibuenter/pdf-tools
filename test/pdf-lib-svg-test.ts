@@ -2,7 +2,7 @@ import { PDFDocument, rgb } from 'pdf-lib';
 import { test } from 'mocha';
 import { readFileSync, writeFileSync } from 'fs';
 
-test('my test', async () => {
+test('pdf-lib-svg', async () => {
   await modifyPdf();
 });
 const inchToPt = (inches: number) => Math.round(inches * 72);

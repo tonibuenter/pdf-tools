@@ -1,7 +1,7 @@
 import { degrees, PDFDocument, rgb, StandardFonts } from 'pdf-lib';
 import { test } from 'mocha';
 import { readFileSync, writeFileSync } from 'fs';
-test('my test', async () => {
+test('pdf-lib-text', async () => {
   await modifyPdf();
 });
 
